@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     AWS_REGION = "us-east-1"
-    ECR_URL = "245003610077.dkr.ecr.us-east-1.amazonaws.com/hello-app"
+    ECR_URL = "IMAGE_PLACEHOLDER"
     IMAGE_TAG = "${BUILD_NUMBER}"
   }
 
