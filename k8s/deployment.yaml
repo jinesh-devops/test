@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: hello
-        image: 245003610077.dkr.ecr.us-east-1.amazonaws.com/hello-app
+        image: IMAGE_PLACEHOLDER
         ports:
         - containerPort: 80
 
